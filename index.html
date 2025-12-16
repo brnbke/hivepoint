@@ -68,48 +68,23 @@
         
         /* Hero Section */
         .hero {
-            padding: 80px 48px 48px;
+            padding: 120px 48px ;
             text-align: left;
             max-width: 1400px;
-            margin: 0 auto;
+            margin: 68px auto 0;
+            background: url(hivebg.png); 
+            background-position: right center;
+            border-radius: 16px;
+            
         }
         
         .hero h1 {
             font-size: 72px;
             font-weight: 600;
             line-height: 1.1;
-            margin-bottom: 40px;
             letter-spacing: -0.02em;
         }
-        
-        .hero-images {
-            display: flex;
-            gap: 24px;
-            margin-top: 60px;
-        }
-        
-        .hero-image-main {
-            flex: 1;
-            max-width: 100%;
-            background: linear-gradient(135deg, #e8f0fe 0%, #d4e4f7 100%);
-            border-radius: 16px;
-            position: relative;
-            overflow: hidden;
-            line-height: 0;
-        }
-        .hero-image-main img {
-            width: 100%;
-        }
 
-        .hero-image-phone {
-            width: 200px;
-            height: 400px;
-            background: #f5f5f5;
-            border-radius: 24px;
-            border: 12px solid #000;
-            margin-top: 50px;
-        }
-        
         /* Trusted By Section */
         .trusted {
             text-align: center;
@@ -495,15 +470,12 @@
             }
             
             .hero {
-                padding: 60px 24px 40px;
+                padding: 60px 24px;
+                margin-top: 0;
             }
             
             .hero h1 {
                 font-size: 48px;
-            }
-            
-            .hero-images {
-                flex-direction: column;
             }
             
             .benefits-grid {
@@ -554,11 +526,6 @@
 
     <section class="hero">
         <h1>Leapfrog traditional<br>thinking in healthcare.</h1>
-        <div class="hero-images">
-            <div class="hero-image-main">
-                <img src="header.png" />
-            </div>
-        </div>
     </section>
 
     <section id="about" class="benefits">
