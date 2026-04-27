@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HivePoint - Healthcare Strategy & Transformation</title>
+    <meta name="description" content="HivePoint is a healthcare strategy advisory firm helping organisations, investors and boards design bold strategies and deliver complex transformations across healthcare." />
+    <meta property="og:title" content="HivePoint - Healthcare Strategy & Transformation" />
+    <meta property="og:description" content="Healthcare strategy advisory helping organisations, investors and boards design bold strategies and deliver complex transformations." />
+    <meta property="og:type" content="website" />
     <style>
       * {
         margin: 0;
@@ -73,8 +77,7 @@
         text-align: left;
         max-width: 1400px;
         margin: 68px auto 0;
-        background: url(hivebg.png);
-        background-position: right center;
+        background: url(hivebg.png) right center / auto no-repeat, #f0ebe4;
         border-radius: 16px;
       }
 
@@ -83,35 +86,6 @@
         font-weight: 600;
         line-height: 1.1;
         letter-spacing: -0.02em;
-      }
-
-      /* Trusted By Section */
-      .trusted {
-        text-align: center;
-        padding: 60px 48px;
-        background: #fafafa;
-      }
-
-      .trusted p {
-        color: #666;
-        font-size: 14px;
-        margin-bottom: 32px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-      }
-
-      .logos {
-        display: flex;
-        justify-content: center;
-        gap: 48px;
-        flex-wrap: wrap;
-      }
-
-      .logo-item {
-        width: 100px;
-        height: 40px;
-        background: #ddd;
-        border-radius: 8px;
       }
 
       /* Benefits Section */
@@ -128,15 +102,6 @@
       .section-wrapper {
         max-width: 1400px;
         margin: 0 auto;
-      }
-
-      .section-label {
-        font-size: 14px;
-        font-weight: 600;
-        color: #666;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: 16px;
       }
 
       .section-title {
@@ -217,33 +182,6 @@
         line-height: 1.3;
       }
 
-      .feature-list {
-        list-style: none;
-      }
-
-      .feature-list li {
-        padding: 20px 0;
-        border-bottom: 1px solid #e5e5e5;
-        display: flex;
-        align-items: start;
-        gap: 16px;
-      }
-
-      .feature-list li:last-child {
-        border-bottom: none;
-      }
-
-      .feature-number {
-        font-weight: 600;
-        color: #999;
-        font-size: 14px;
-      }
-
-      .feature-list strong {
-        display: block;
-        margin-bottom: 4px;
-      }
-
       .feature-cta {
         margin-top: 40px;
       }
@@ -277,105 +215,6 @@
         margin: 0 auto;
       }
 
-      .specs-intro {
-        text-align: center;
-        max-width: 700px;
-        margin: 0 auto 48px;
-      }
-
-      .specs-table {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2px;
-        background: #e5e5e5;
-        border-radius: 16px;
-        overflow: hidden;
-      }
-
-      .spec-column {
-        background: #fff;
-        padding: 48px 32px;
-      }
-
-      .spec-column.highlight {
-        background: #000;
-        color: #fff;
-      }
-
-      .spec-header {
-        font-size: 20px;
-        font-weight: 600;
-        margin-bottom: 32px;
-        padding-bottom: 24px;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-      }
-
-      .spec-column.highlight .spec-header {
-        border-bottom-color: rgba(255, 255, 255, 0.2);
-      }
-
-      .spec-item {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        padding: 16px 0;
-        font-size: 14px;
-      }
-
-      .check {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: #4caf50;
-        flex-shrink: 0;
-      }
-
-      .cross {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        background: #ccc;
-        flex-shrink: 0;
-      }
-
-      /* Quote Section */
-      .quote {
-        padding: 80px 48px;
-        background: #fafafa;
-      }
-
-      .quote-content {
-        max-width: 900px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        gap: 60px;
-        align-items: center;
-      }
-
-      .quote-image {
-        width: 100%;
-        height: 300px;
-        background: linear-gradient(135deg, #c9ada7 0%, #9a8c98 100%);
-        border-radius: 16px;
-      }
-
-      .quote-text blockquote {
-        font-size: 24px;
-        line-height: 1.5;
-        margin-bottom: 24px;
-        font-style: italic;
-      }
-
-      .quote-author {
-        font-weight: 600;
-      }
-
-      .quote-role {
-        color: #666;
-        font-size: 14px;
-      }
-
       /* Profile Section */
       .profile-para {
         color: #666;
@@ -384,9 +223,9 @@
       }
 
       .profile-list {
-        list-style: none;
+        list-style: disc;
         margin-bottom: 20px;
-        margin-left: 16px;
+        padding-left: 20px;
       }
 
       .profile-list-item {
@@ -395,49 +234,45 @@
         line-height: 1.6;
       }
 
-      /* Steps Section */
-      .steps {
-        padding: 80px 48px;
-        max-width: 1400px;
-        margin: 0 auto;
-        text-align: center;
-      }
-
-      .steps h2 {
-        font-size: 48px;
-        font-weight: 600;
-        margin-bottom: 48px;
-      }
-
-      .steps-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 60px;
-        text-align: left;
-      }
-
-      .step-number {
-        font-size: 14px;
-        font-weight: 600;
-        color: #999;
+      .advisory-heading {
+        margin-top: 48px;
         margin-bottom: 16px;
       }
 
-      .step h3 {
-        font-size: 24px;
-        font-weight: 600;
-        margin-bottom: 12px;
+      .feature-text p {
+        color: #666;
+        margin-bottom: 16px;
       }
 
-      .step p {
-        color: #666;
-        line-height: 1.6;
+      .feature-closing {
+        margin-bottom: 40px;
+      }
+
+      .people-section-header {
+        text-align: center;
+        margin-bottom: 48px;
+      }
+
+      .profile-card {
+        margin: 0 auto;
+        padding: 60px;
+        border-radius: 16px;
+      }
+
+      .profile-name {
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+
+      .profile-list--flush {
+        margin-bottom: 0;
       }
 
       /* CTA Section */
       .cta-section {
         padding: 80px 48px;
-        sbackground: linear-gradient(135deg, #8a8e8d 0%, #484a49 100%);
+
         background-color: #000;
         color: #fff;
         text-align: center;
@@ -497,11 +332,6 @@
         font-size: 14px;
       }
 
-      /* Mobile Menu */
-      .mobile-menu {
-        display: none;
-      }
-
       @media (max-width: 968px) {
         nav {
           padding: 20px 24px;
@@ -530,18 +360,6 @@
           gap: 40px;
         }
 
-        .specs-table {
-          grid-template-columns: 1fr;
-        }
-
-        .quote-content {
-          grid-template-columns: 1fr;
-        }
-
-        .steps-grid {
-          grid-template-columns: 1fr;
-        }
-
         .footer-content {
           flex-direction: column;
           gap: 32px;
@@ -565,272 +383,244 @@
         <a href="#contact" class="cta">Get in Touch</a>
       </div>
     </nav>
+    <main>
+      <section class="hero">
+        <h1>Leapfrog traditional<br />thinking in healthcare.</h1>
+      </section>
 
-    <section class="hero">
-      <h1>Leapfrog traditional<br />thinking in healthcare.</h1>
-    </section>
-
-    <section id="about" class="benefits">
-      <div class="section-header">
-        <h2 class="section-title">
-          Healthcare Strategy Advisor to Investors, Boards and Healthcare
-          Leaders.
-        </h2>
-
-        <p class="section-subtitle">
-          Designing strategy, unlocking growth and leading complex healthcare
-          transformations.
-        </p>
-        <p class="section-subtitle">
-          HivePoint is a healthcare strategy advisory focused on helping
-          organisations, research institutes and investors design bold
-          strategies and translate them into operational excellence and
-          measurable outcomes.
-        </p>
-        <p class="section-subtitle">
-          Led by healthcare executive <strong>Siegi</strong>, HivePoint works
-          with CEOs, boards and private equity investors to create enterprise
-          value, develop new strategic opportunities and deliver complex
-          transformations across healthcare services, medical research and
-          emerging clinical models.
-        </p>
-        <p class="section-subtitle">
-          <strong
-            >Trusted by healthcare leaders and investors to design strategy,
-            create value and deliver complex organisational
-            transformation.</strong
-          >
-        </p>
-      </div>
-    </section>
-
-    <section id="expertise" class="expertise">
-      <div class="section-wrapper">
+      <section id="about" class="benefits">
         <div class="section-header">
           <h2 class="section-title">
-            Creating value through<br />strategic excellence.
+            Healthcare Strategy Advisor to Investors, Boards and Healthcare
+            Leaders.
           </h2>
-        </div>
 
-        <div class="benefits-grid">
-          <div class="benefit-card">
-            <div class="benefit-content">
-              <h3>Strategic Planning</h3>
-              <p>
-                Designing and implementing strategic plans that fundamentally
-                change the course of the organisation for sustainable growth and
-                impact.
-              </p>
-              <p>
-                Areas of expertise include translational research and
-                commercialisation, development of new clinical service lines,
-                strategic partnerships, and investment in adjacent healthcare
-                services.
-              </p>
-            </div>
-          </div>
-
-          <div class="benefit-card">
-            <div class="benefit-content">
-              <h3>Business Transformation</h3>
-              <p>
-                Leading complex organisational transformations that deliver
-                improved financial performance alongside clinical excellence,
-                research capability and innovation.
-              </p>
-              <p>
-                This includes organisational redesign, operational performance
-                improvement, leadership alignment and large-scale change
-                implementation—reducing complexity while building scalable,
-                high-performing organisations.
-              </p>
-            </div>
-          </div>
-          <div class="benefit-card">
-            <div class="benefit-content">
-              <h3>Value Creation and Growth</h3>
-              <p>
-                Identifying new opportunities for growth, investment and
-                innovation across private and public healthcare and medical
-                research.
-              </p>
-              <p>
-                This includes developing compelling value propositions, building
-                business cases, and supporting organisations and investors to
-                identify and execute strategic opportunities.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <h3 style="margin-top: 48px; margin-bottom: 16px">
-          Board and Executive Advisory
-        </h3>
-        <p class="section-subtitle">
-          Siegi advises boards, investors and executive leadership teams on
-          strategy, organisational transformation and healthcare innovation.
-        </p>
-
-        <p class="section-subtitle">
-          Her experience as a CEO, executive leader and board director enables
-          her to work effectively at governance level while supporting
-          leadership teams through complex strategic and operational challenges.
-        </p>
-
-        <p class="section-subtitle">Advisory areas include:</p>
-        <div class="profile-list-wrapper">
-          <ul class="profile-list" style="margin-bottom: 0">
-            <li class="profile-list-item">
-              • Board-level strategy development
-            </li>
-            <li class="profile-list-item">
-              • Healthcare investment and growth strategy
-            </li>
-            <li class="profile-list-item">
-              • Organisational transformation and turnaround
-            </li>
-            <li class="profile-list-item">
-              • Development of new clinical services and healthcare models
-            </li>
-
-            <li class="profile-list-item">
-              • Translational research strategy and commercialisation
-            </li>
-            <li class="profile-list-item">
-              • Clinical governance and leadership alignment
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="how-we-work" class="feature">
-      <div class="feature-content">
-        <div class="feature-image">
-          <img src="siegi.jpg" alt="Siegi Schmidmaier" />
-        </div>
-        <div class="feature-text">
-          <h2>Advising investors.</h2>
-          <p style="color: #666; margin-bottom: 16px">
-            Healthcare investment requires deep sector expertise and operational
-            insight.
+          <p class="section-subtitle">
+            Designing strategy, unlocking growth and leading complex healthcare
+            transformations.
           </p>
-          <p style="color: #666; margin-bottom: 14px">
-            HivePoint works with private equity firms and healthcare investors
-            to support portfolio companies and investment strategies, including:
+          <p class="section-subtitle">
+            HivePoint is a healthcare strategy advisory focused on helping
+            organisations, research institutes and investors design bold
+            strategies and translate them into operational excellence and
+            measurable outcomes.
           </p>
+          <p class="section-subtitle">
+            Led by healthcare executive <strong>Siegi</strong>, HivePoint works
+            with CEOs, boards and private equity investors to create enterprise
+            value, develop new strategic opportunities and deliver complex
+            transformations across healthcare services, medical research and
+            emerging clinical models.
+          </p>
+          <p class="section-subtitle">
+            <strong
+              >Trusted by healthcare leaders and investors to design strategy,
+              create value and deliver complex organisational
+              transformation.</strong
+            >
+          </p>
+        </div>
+      </section>
+
+      <section id="expertise" class="expertise">
+        <div class="section-wrapper">
+          <div class="section-header">
+            <h2 class="section-title">
+              Creating value through<br />strategic excellence.
+            </h2>
+          </div>
+
+          <div class="benefits-grid">
+            <div class="benefit-card">
+              <div class="benefit-content">
+                <h3>Strategic Planning</h3>
+                <p>
+                  Designing and implementing strategic plans that fundamentally
+                  change the course of the organisation for sustainable growth
+                  and impact.
+                </p>
+                <p>
+                  Areas of expertise include translational research and
+                  commercialisation, development of new clinical service lines,
+                  strategic partnerships, and investment in adjacent healthcare
+                  services.
+                </p>
+              </div>
+            </div>
+
+            <div class="benefit-card">
+              <div class="benefit-content">
+                <h3>Business Transformation</h3>
+                <p>
+                  Leading complex organisational transformations that deliver
+                  improved financial performance alongside clinical excellence,
+                  research capability and innovation.
+                </p>
+                <p>
+                  This includes organisational redesign, operational performance
+                  improvement, leadership alignment and large-scale change
+                  implementation—reducing complexity while building scalable,
+                  high-performing organisations.
+                </p>
+              </div>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-content">
+                <h3>Value Creation and Growth</h3>
+                <p>
+                  Identifying new opportunities for growth, investment and
+                  innovation across private and public healthcare and medical
+                  research.
+                </p>
+                <p>
+                  This includes developing compelling value propositions,
+                  building business cases, and supporting organisations and
+                  investors to identify and execute strategic opportunities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <h3 class="advisory-heading">
+            Board and Executive Advisory
+          </h3>
+          <p class="section-subtitle">
+            Siegi advises boards, investors and executive leadership teams on
+            strategy, organisational transformation and healthcare innovation.
+          </p>
+
+          <p class="section-subtitle">
+            Her experience as a CEO, executive leader and board director enables
+            her to work effectively at governance level while supporting
+            leadership teams through complex strategic and operational
+            challenges.
+          </p>
+
+          <p class="section-subtitle">Advisory areas include:</p>
           <div class="profile-list-wrapper">
-            <ul class="profile-list">
-              <li class="profile-list-item">
-                • Healthcare market and strategy advice
-              </li>
-              <li class="profile-list-item">
-                • Portfolio company growth strategies
-              </li>
-              <li class="profile-list-item">
-                • Operational turnaround and performance improvement
-              </li>
-              <li class="profile-list-item">
-                • Clinical service design and governance
-              </li>
-              <li class="profile-list-item">
-                • Leadership support during periods of rapid change and
-                transformation
-              </li>
+            <ul class="profile-list profile-list--flush">
+              <li class="profile-list-item">Board-level strategy development</li>
+              <li class="profile-list-item">Healthcare investment and growth strategy</li>
+              <li class="profile-list-item">Organisational transformation and turnaround</li>
+              <li class="profile-list-item">Development of new clinical services and healthcare models</li>
+              <li class="profile-list-item">Translational research strategy and commercialisation</li>
+              <li class="profile-list-item">Clinical governance and leadership alignment</li>
             </ul>
           </div>
-          <p style="color: #666; margin-bottom: 40px">
-            We provide consulting services and interim executive support. We
-            provide a tailored approach to meet your needs.
-          </p>
-          <div class="feature-cta">
-            <a href="#contact" class="button-secondary">Discover More</a>
+        </div>
+      </section>
+
+      <section id="how-we-work" class="feature">
+        <div class="feature-content">
+          <div class="feature-image">
+            <img src="siegi.jpg" alt="Siegi Schmidmaier" loading="lazy" />
+          </div>
+          <div class="feature-text">
+            <h2>Advising investors.</h2>
+            <p>
+              Healthcare investment requires deep sector expertise and
+              operational insight.
+            </p>
+            <p>
+              HivePoint works with private equity firms and healthcare investors
+              to support portfolio companies and investment strategies,
+              including:
+            </p>
+            <div class="profile-list-wrapper">
+              <ul class="profile-list">
+                <li class="profile-list-item">Healthcare market and strategy advice</li>
+                <li class="profile-list-item">Portfolio company growth strategies</li>
+                <li class="profile-list-item">Operational turnaround and performance improvement</li>
+                <li class="profile-list-item">Clinical service design and governance</li>
+                <li class="profile-list-item">Leadership support during periods of rapid change and transformation</li>
+              </ul>
+            </div>
+            <p class="feature-closing">
+              We provide consulting services and interim executive support. We
+              provide a tailored approach to meet your needs.
+            </p>
+            <div class="feature-cta">
+              <a href="#contact" class="button-secondary">Discover More</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="people" class="specs">
+      <section id="people" class="specs">
         <div class="section-wrapper">
-      <div
-        class="section-header"
-        style="text-align: center; margin-bottom: 48px"
-      >
-        <h2 class="section-title">
-          Led by experienced<br />healthcare executives.
-        </h2>
-      </div>
+          <div class="section-header people-section-header">
+            <h2 class="section-title">
+              Led by experienced<br />healthcare executives.
+            </h2>
+          </div>
 
-      <div style="margin: 0 auto; padding: 60px; border-radius: 16px">
-        <h3 style="font-size: 32px; font-weight: 600; margin-bottom: 16px">
-          Siegi Schmidmaier
-        </h3>
+          <div class="profile-card">
+            <h3 class="profile-name">
+              Siegi Schmidmaier
+            </h3>
 
-        <p class="profile-para">
-          Siegi is a healthcare executive with a proven track record in strategy
-          development, organisational transformation and commercial growth while
-          maintaining strong clinical and research outcomes.
-        </p>
-        <p class="profile-para">
-          She specialises in working in complex healthcare environments,
-          bringing experience across the full organisational spectrum—from
-          frontline operations to executive leadership, CEO roles and board
-          directorships. Her career spans consulting, government, private sector
-          and not-for-profit healthcare and medical research organisations.
-        </p>
+            <p class="profile-para">
+              Siegi is a healthcare executive with a proven track record in
+              strategy development, organisational transformation and commercial
+              growth while maintaining strong clinical and research outcomes.
+            </p>
+            <p class="profile-para">
+              She specialises in working in complex healthcare environments,
+              bringing experience across the full organisational spectrum—from
+              frontline operations to executive leadership, CEO roles and board
+              directorships. Her career spans consulting, government, private
+              sector and not-for-profit healthcare and medical research
+              organisations.
+            </p>
 
-        <p class="profile-para profile-para-section-end">
-          <strong>Siegi has held leadership roles including:</strong>
-        </p>
-        <div class="profile-list-wrapper">
-          <ul class="profile-list">
-            <li class="profile-list-item">
-              • CEO, Care 24-7 – operator of private emergency departments
-            </li>
-            <li class="profile-list-item">
-              • Executive Director Strategic Development and Partnerships and
-              South Australian Operations, Silverchain Group
-            </li>
-            <li class="profile-list-item">
-              • Independent Board Director, Cell Therapies Pty Ltd
-            </li>
-            <li class="profile-list-item">
-              • Executive Director Strategy and Planning, Peter MacCallum Cancer
-              Centre
-            </li>
-          </ul>
+            <p class="profile-para">
+              <strong>Siegi has held leadership roles including:</strong>
+            </p>
+            <div class="profile-list-wrapper">
+              <ul class="profile-list">
+                <li class="profile-list-item">CEO, Care 24-7 – operator of private emergency departments</li>
+                <li class="profile-list-item">Executive Director Strategic Development and Partnerships and South Australian Operations, Silverchain Group</li>
+                <li class="profile-list-item">Independent Board Director, Cell Therapies Pty Ltd</li>
+                <li class="profile-list-item">Executive Director Strategy and Planning, Peter MacCallum Cancer Centre</li>
+              </ul>
+            </div>
+            <p class="profile-para">
+              She holds a Master of Science from Humboldt University and the
+              Free University of Berlin, a Bachelor of Nursing, and a Graduate
+              Diploma in Project Management.
+            </p>
+            <p class="profile-para">
+              Siegi is known for building strong strategic relationships,
+              designing effective strategies and delivering practical solutions
+              to complex organisational challenges.
+            </p>
+            <p class="profile-para">
+              Outside of work, Siegi is a keen runner, cyclist and skier, and
+              recently taken up tennis. She enjoys travel, great food, and
+              spending time with her husband and their three cats — Comet,
+              Juniper and Pretzel.
+            </p>
+          </div>
         </div>
-        <p class="profile-para">
-          She holds a Master of Science from Humboldt University and the Free
-          University of Berlin, a Bachelor of Nursing, and a Graduate Diploma in
-          Project Management.
-        </p>
-        <p class="profile-para">
-          Siegi is known for building strong strategic relationships, designing
-          effective strategies and delivering practical solutions to complex
-          organisational challenges.
-        </p>
-        <p class="profile-para">
-          Outside of work, Siegi is a keen runner, cyclist and skier, and
-          recently taken up tennis. She enjoys travel, great food, and spending
-          time with her husband and their three cats — Comet, Juniper and
-          Pretzel.
-        </p>
-      </div>
-    </section>
+      </section>
 
-    <section id="contact" class="cta-section">
-      <div class="cta-image"></div>
-      <h2>Ready to transform your organisation?</h2>
-      <p>
-        Let's discuss how HivePoint can help you achieve sustainable growth.
-      </p>
-      <a href="mailto:siegi@hivepoint.com" class="button-secondary">Email Us</a>
-      <a href="https://www.linkedin.com/in/siegischmidmaier/" class="linkedin">
-        <img src="linkedin.png" alt="Siegi's Linkedin profile" />
-      </a>
-    </section>
-
+      <section id="contact" class="cta-section">
+        <h2>Ready to transform your organisation?</h2>
+        <p>
+          Let's discuss how HivePoint can help you achieve sustainable growth.
+        </p>
+        <a href="mailto:siegi@hivepoint.com" class="button-secondary"
+          >Email Us</a
+        >
+        <a
+          href="https://www.linkedin.com/in/siegischmidmaier/"
+          class="linkedin"
+          rel="noopener noreferrer"
+        >
+          <img src="linkedin.png" alt="Siegi's Linkedin profile" loading="lazy" />
+        </a>
+      </section>
+    </main>
     <footer>
       <div class="footer-content">
         <div class="footer-logo">HivePoint</div>
@@ -840,7 +630,7 @@
           <li><a href="#how-we-work">How We Work</a></li>
           <li><a href="#people">People</a></li>
         </ul>
-        <div class="footer-copy">© HivePoint. 2025 All Rights Reserved</div>
+        <div class="footer-copy">© HivePoint. 2026 All Rights Reserved</div>
       </div>
     </footer>
   </body>
